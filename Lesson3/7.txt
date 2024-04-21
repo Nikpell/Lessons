@@ -1,0 +1,2 @@
+SELECT count(*) FROM book.info WHERE price BETWEEN 10 AND 30
+[(403,)]

@@ -1,0 +1,2 @@
+SELECT avg(price) FROM book.info WHERE availability BETWEEN 10 AND 15
+[(34.451712307864675,)]

@@ -1,0 +1,2 @@
+SELECT name, price, availability FROM book.info ORDER BY price DESC LIMIT 5
+[('The Perfect Play (Play by Play #1)', 59.9900016784668, 4), ('Last One Home (New Beginnings #1)', 59.97999954223633, 5), ('Civilization and Its Discontents', 59.95000076293945, 3), ('The Barefoot Contessa Cookbook', 59.91999816894531, 6), ('The Diary of a Young Girl', 59.900001525878906, 12)]

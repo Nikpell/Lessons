@@ -1,0 +1,2 @@
+SELECT name, price, availability FROM book.info ORDER BY price ASC, availability DESC LIMIT 5
+[('An Abundance of Katherines', 10.0, 5), ('The Origin of Species', 10.010000228881836, 7), ('The Tipping Point: How Little Things Can Make a Big Difference', 10.020000457763672, 3), ('Patience', 10.15999984741211, 16), ('Greek Mythic History', 10.229999542236328, 14)]
