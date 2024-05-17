@@ -13,11 +13,9 @@ class CustomFilesPipeline(ImagesPipeline):
             yield scrapy.Request(image_url)
 
     def item_completed(self, results, item, info):
-        print(results)
         image_paths = [x["path"] for ok, x in results if ok]
         if not image_paths:
             raise DropItem("Item contains no images")
         adapter = ItemAdapter(item)
         adapter["image_paths"] = image_paths
-        image_paths = [x["path"] for ok, x in results if ok]
         return item
